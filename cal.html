@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html lang = "pt-BR">
+    <head>
+        <meta charset="utf-8"/>
+         <title>Calculadora</title>
+    </head>
+    <body>
+            <form action="calculadora.php" method = "POST">
+                <fieldset>
+
+                  <legend><p><b>Informe o primeiro numero:</b></p></legend>
+                    <input type = "number" name = "numero1"/>
+
+                <legend><p><b>Informe o primeiro numero:</b></p></legend>
+                    <input type = "number" name = "numero2"/>
+
+                    <select name="op">
+                        <option value="soma">Soma</option> 
+                        <option value="sub">Subtração</option>
+                        <option value="div">Divisão</option>
+                        <option value="mult">Multiplicação</option>
+
+                      </select>
+
+                    <input type = "submit" value =  "Enviar"/>
+                    <input type = "reset" value = "Limpar"/>  
+
+                </fieldset>
+
+        
+
+            </form>
+
+    </body>
+</html>
